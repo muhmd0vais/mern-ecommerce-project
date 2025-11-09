@@ -6,13 +6,21 @@ Users can browse, search, and purchase products with authentication, admin contr
 🚀 Features
 
 🔐 User Authentication – Secure login and register using JWT
+
 🛍️ Product Management – Display, search, and filter products
+
 🛒 Shopping Cart – Add, remove, update items (max 5 units per product)
+
 ❤️ Wishlist – Save and view favorite products anytime
+
 ⭐ Ratings – Star-based product rating display
+
 🔔 Notifications – Toast messages for “Added to Cart” or “Wishlist”
+
 🧾 Admin Panel – Add, edit, or delete products easily
+
 📱 Responsive Design – Works smoothly on all devices
+
 📄 Pagination – Load more products without refreshing
 
 🧠 Tech Stack
