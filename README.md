@@ -35,11 +35,6 @@ cd mern-ecommerce-project
 cd backend
 npm install
 
-Create a file named .env inside the backend folder and add:
-MONGO_URI=mongodb+srv://jhonbeckum_db_user:jhonbeckum@cluster0.eptrskq.mongodb.net/ecommerce?retryWrites=true&w=majority
-JWT_SECRET=yourSecretKey
-PORT=5000
-
 Run the backend server:
 npm run dev
 
