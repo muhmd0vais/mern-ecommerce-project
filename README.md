@@ -65,30 +65,21 @@ Backend → http://localhost:5000
 mern-ecommerce-project/
 │
 ├── backend/
-
-│ ├── models/
-
-│ ├── routes/
-
-│ ├── server.js
-
-│ ├── .env
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   ├── .env
 │
 ├── frontend/
-
-│ ├── src/
-
-│ │ ├── components/
-
-│ │ ├── pages/
-
-│ │ ├── contexts/
-
-│ ├── App.jsx
-
-│ ├── main.jsx
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── contexts/
+│   ├── App.jsx
+│   ├── main.jsx
 │
 └── README.md
+
 
 👨‍💻 Author
 
