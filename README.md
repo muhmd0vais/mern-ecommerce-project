@@ -26,10 +26,15 @@ Users can browse, search, and purchase products with authentication, admin contr
 🧠 Tech Stack
 
 Frontend: React.js (Vite), Context API, React Router
+
 Backend: Node.js, Express.js
+
 Database: MongoDB Atlas
+
 Authentication: JWT (JSON Web Token)
+
 Styling: CSS3
+
 Tools: Nodemon, Axios, dotenv
 
 ⚙️ Setup Instructions
@@ -60,17 +65,27 @@ Backend → http://localhost:5000
 mern-ecommerce-project/
 │
 ├── backend/
+
 │ ├── models/
+
 │ ├── routes/
+
 │ ├── server.js
+
 │ ├── .env
 │
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── components/
+
 │ │ ├── pages/
+
 │ │ ├── contexts/
+
 │ ├── App.jsx
+
 │ ├── main.jsx
 │
 └── README.md
