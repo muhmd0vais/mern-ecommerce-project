@@ -1,0 +1,52 @@
+/* frontend/src/components/Sidebar.css */
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  left: -240px;             /* hidden by default */
+  width: 240px;
+  height: 100vh;
+  background: linear-gradient(180deg,#0b5ed7,#0a66d1);
+  color: #fff;
+  padding: 20px 12px;
+  box-shadow: 2px 0 12px rgba(0,0,0,0.12);
+  transition: left .25s ease;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-sidebar.open {
+  left: 0;
+}
+
+.sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar-title {
+  margin: 0 0 6px 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.sidebar-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.sidebar-link:hover {
+  background: rgba(255,255,255,0.08);
+}
